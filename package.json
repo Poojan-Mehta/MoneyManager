@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node src/app.ts",
     "build": "tsc",
     "dev": "ts-node src/app.ts",
     "dev:nodemon": "nodemon --exec ts-node src/app.ts"
@@ -17,7 +17,9 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
+    "moneymanager": "file:",
     "mongoose": "^8.5.1",
+    "nodemailer": "^6.9.14",
     "nodemon": "^3.1.4"
   },
   "devDependencies": {
@@ -26,6 +28,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^20.14.10",
+    "@types/nodemailer": "^6.4.15",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   }
